@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100vw;
+    
+    text-align: center;
+}
+header div {
+    margin: 0 auto;
+    margin-top: 4.8rem;
+}
+header div .Title {
+  height: 45px;
+  
+}
+header div .Subtitle {
+  margin-top: 5px;
+} 
+.Title span {
+    font-size: 4.5rem;
+}
+.Title {
+    /*font-family: Linux Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif;*/
+    font-family: 'Crimson Text', serif;
+    font-size: 3rem;
+}
+.Subtitle {
+    font-size: 1.8rem;
+    font-family: 'Crimson Text', serif;
+}
+main {
+  width: 100vw;    
+  text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(5,45px);
+    grid-template-columns: repeat(41,12px);
+    grid-row-gap: 20px;
+    grid-column-gap: 2px;
+    grid-template-areas:
+    "area1 . . . . . area2 area2 area2 area2 area2 area2 area2 area2 area2 area2 . . . . . . . . . area3 area3 area3 area3 area3 area3 area3 area3 area3 area3 . . . . . area4"
+    "area5 . area6 area6 area6 area6 area6 area6 area6 area6 area6 area6 . area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 . area8 area8 area8 area8 area8 area8 area8 area8 area8 area8 . area9"
+    "area10 area11 area11 area11 area11 area11 area11 area11 area11 area11 area11 . . area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 . . area12 area12 area12 area12 area12 area12 area12 area12 area12 area12 area13"
+    "area14 . area15 area15 area15 area15 area15 area15 area15 area15 area15 area15 . area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 . area16 area16 area16 area16 area16 area16 area16 area16 area16 area16 . area17"
+    "area18 . . . . . area19 area19 area19 area19 area19 area19 area19 area19 area19 area19 . . . . . . . . . area20 area20 area20 area20 area20 area20 area20 area20 area20 area20 . . . . . area21";
+    margin-top: 20px;
+  }
+
+  .grid-item1 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area1;
+    
+  }
+  
+  .grid-item2 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area2;
+  }
+  
+  .grid-item3 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area3;
+  }
+  .grid-item4 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area4;
+  }
+  .grid-item5 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area5;
+  }
+  .grid-item6 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area6;
+  }
+  .grid-item7 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area7;
+   
+    height: 205px;
+    margin-top: -15px;
+  }
+  .grid-item7 img {
+    width: 100%;
+    height: 100%;
+  }
+  .grid-item8 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area8;
+  }
+  .grid-item9 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area9;
+  }
+  .grid-item10 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area10;
+  }
+  
+  .grid-item11 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area11;
+  }
+  .grid-item12 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area12;
+  }
+  .grid-item13 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area13;
+  }
+  .grid-item14 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area14;
+  }
+  
+  .grid-item15 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area15;
+  }
+  .grid-item16 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area16;
+  }
+  .grid-item17 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area17;
+  }
+  .grid-item18 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area18;
+  }
+  
+  .grid-item19 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area19;
+  }
+  .grid-item20 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area20;
+  }
+  .grid-item21 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area21;
+  }
+
+  .main-list-container {
+    margin-top: 2.5rem;
+  }
+  #lang2 {
+    margin-top: 3rem;
+  }
+
+  
+  
