@@ -199,9 +199,85 @@ main {
   .main-list-container {
     margin-top: 2.5rem;
   }
+  /*
   #lang2 {
     margin-top: 3rem;
-  }
+  }*/
 
+  .main-list-container {
+    width: 45rem;
+    height: 4.4rem;
+    
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2.7rem;
+    justify-content: center;
+    align-items: center;
+    border: #DCDCDC 1px solid;
+  }
   
+.search {
+  width: 5.4rem;
+  height: 4.4rem;
+  background-color: #4535E4;
+  cursor: pointer;
+
+}
+/*.main-list-container .search .search-icon {*/
+.search img {
+  /*background-image: url('https://img.icons8.com/android/24/000000/search.png');
+  background-image: url('https://ebling.library.wisc.edu/wp-content/uploads/2019/03/whitesearchicon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 5.6rem;
+  height: 1.8rem;*/
+  width: 65%;
+  height: 65%;
+  margin-top: 0.5rem;
+    
+}
   
+.main-list-container input {
+  width: 36rem;
+  height: 4rem;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+}
+.main-list-container select {
+  width: 4.5rem;
+  padding-left: 6px;
+  border: none;
+}
+
+.Second-list-container {
+  width: 30rem;
+  height: 3.6rem;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 3.2rem;
+  justify-content: center;
+  align-items: center;
+  border: #DCDCDC 1px solid;
+}
+.Message-lang {
+  width: 25rem;
+  height: 4rem;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+  margin-top: 2.4rem;
+}
+.Message-lang p {
+  font-size: 15px;
+  color: #4535E4;
+  font-weight: bold;
+}
+.Second-list-container select {
+  width: 4.5rem;
+  padding-left: 6px;
+  border: none;
+  
+}
