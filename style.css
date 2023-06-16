@@ -281,3 +281,91 @@ main {
   border: none;
   
 }
+
+.FooterUp {
+  width: 92%;
+  border: black 1px dotted;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.legend-up {
+  
+  margin: 0 auto;
+  display:inherit;
+  align-items: center;
+}
+.legend-up img {
+  
+  width: 42px;
+  height: 42px;
+  margin: 0 auto;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;  
+}
+
+.legend-up p {
+  
+  font-size: 13.5px;
+  justify-content: center;
+  
+}
+
+.legend-up p a {
+  text-decoration: none;
+}
+.GridUtilities {
+  display: grid;
+  grid-template-columns: repeat(3,22rem);
+  grid-template-rows: repeat(4,7.6rem);
+  justify-content: center;
+  margin-top: 3.2rem;
+}
+.item {
+  background-color: #C9C7E2;
+  border: black 1px solid;
+  display: flex;
+  align-items: center;
+}
+/*
+.item {
+  display: flex;
+}*/
+.item :nth-child(1) {
+  width: 30%;
+  
+}
+.item :nth-child(1) img {
+  width: 70%;
+  height: 70%;
+  /*margin-top: 13px;*/
+}
+.Utility {
+  width: 70%;
+  height: auto;
+}
+.item .Utility :nth-child(1) {
+  font-size: 14px;
+  width: 100%;
+  text-align: left;
+  /*padding-top: 22px;*/
+  margin: auto 0;
+  color: #7B7BEA
+}
+.item .Utility :nth-child(2) {
+  font-size: 13.4px;
+  text-align: left;
+}
+
+.legend-down {
+  /*width: 92%;
+  margin: 0 auto;*/
+  border: black 1px solid;
+  margin-top: 2.5rem;
+}
+.legend-down img {
+  display: inline-block;
+}
+
+.parr1 {
+  display: inline-block;
+}
