@@ -349,7 +349,7 @@ main {
   text-align: left;
   /*padding-top: 22px;*/
   margin: auto 0;
-  color: #7B7BEA
+  color: #7B7BEA;
 }
 .item .Utility :nth-child(2) {
   font-size: 13.4px;
@@ -359,13 +359,79 @@ main {
 .legend-down {
   /*width: 92%;
   margin: 0 auto;*/
-  border: black 1px solid;
+  border: black 1px dotted;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  background-color: #F0F0F5;
+}
+.legend-down .LogWiki {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: white;
+  margin-right: 0.4rem;
+  margin-top: 0.7rem;
+  border-top: #DADADD 0.8px solid;
+  border-left: #DADADD 0.8px solid;
+  border-right: #DADADD 0.8px solid;
+  border-bottom: #DADADD 2px solid;
+}
+.legend-down .LogWiki img {
+  width: 85%;
+  height: 65%;
+  margin-top: 3.5px;
+}
+.LegDnParr1 {
+  display: inline;
+  color: #191995;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 0.4rem;
+  cursor: pointer;
+  margin-top: 17px;
+}
+.LegDnParr2 {
+  font-size: 14px;
   margin-top: 2.5rem;
 }
-.legend-down img {
-  display: inline-block;
+.PlayStore {
+  margin-top: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+.PlayStore :nth-child(1) {
+  width: 12.4rem;
+  height: 3.8rem;
+  cursor: pointer;
+}
+.PlayStore :nth-child(2) {
+  width: 11rem;
+  height: 3.8rem;
+  cursor: pointer;
 }
 
-.parr1 {
-  display: inline-block;
+footer {
+  text-align: center;
+}
+
+.FooterDown {
+  
+  
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+.FooterDown li {
+  display: inline;
+  list-style-position: upper-alpha;
+  list-style-position: inside;
+  font-size: 14px;
+    
+}
+
+.FooterDown li span {
+  color: #7B7BEA;
+  
+}
+.FooterDown :nth-child(2) {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
