@@ -19,8 +19,12 @@
     background: blue;
     text-align: center;
     border: black 5px solid;
-    width: 90px;
-    height: 90px;
+    width: 150%;
+    height: auto;
     justify-self: start;
     align-self: start;
+  }
+
+  .c6 {
+    margin-left: 60px;
   }

@@ -1,0 +1,632 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100vw;
+    
+    text-align: center;
+}
+header div {
+    margin: 0 auto;
+    margin-top: 4.8rem;
+}
+header div .Title {
+  height: 45px;
+  
+}
+header div .Subtitle {
+  margin-top: 5px;
+} 
+.Title span {
+    font-size: 4.5rem;
+}
+.Title {
+    /*font-family: Linux Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif;*/
+    font-family: 'Crimson Text', serif;
+    font-size: 3rem;
+}
+.Subtitle {
+    font-size: 1.8rem;
+    font-family: 'Crimson Text', serif;
+}
+main {
+  width: 100vw;    
+  text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(5,45px);
+    grid-template-columns: repeat(41,12px);
+    grid-row-gap: 20px;
+    grid-column-gap: 2px;
+    grid-template-areas:
+    "area1 . . . . . area2 area2 area2 area2 area2 area2 area2 area2 area2 area2 . . . . . . . . . area3 area3 area3 area3 area3 area3 area3 area3 area3 area3 . . . . . area4"
+    "area5 . area6 area6 area6 area6 area6 area6 area6 area6 area6 area6 . area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 . area8 area8 area8 area8 area8 area8 area8 area8 area8 area8 . area9"
+    "area10 area11 area11 area11 area11 area11 area11 area11 area11 area11 area11 . . area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 . . area12 area12 area12 area12 area12 area12 area12 area12 area12 area12 area13"
+    "area14 . area15 area15 area15 area15 area15 area15 area15 area15 area15 area15 . area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 area7 . area16 area16 area16 area16 area16 area16 area16 area16 area16 area16 . area17"
+    "area18 . . . . . area19 area19 area19 area19 area19 area19 area19 area19 area19 area19 . . . . . . . . . area20 area20 area20 area20 area20 area20 area20 area20 area20 area20 . . . . . area21";
+    margin-top: 20px;
+  }
+
+  .grid-item1 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area1;
+    
+  }
+  
+  .grid-item2 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area2;
+  }
+  
+  .grid-item3 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area3;
+  }
+  .grid-item4 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area4;
+  }
+  .grid-item5 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area5;
+  }
+  .grid-item6 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area6;
+  }
+  .grid-item7 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area7;
+   
+    height: 205px;
+    margin-top: -15px;
+  }
+  .grid-item7 img {
+    width: 100%;
+    height: 100%;
+  }
+  .grid-item8 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area8;
+  }
+  .grid-item9 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area9;
+  }
+  .grid-item10 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area10;
+  }
+  
+  .grid-item11 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area11;
+  }
+  .grid-item12 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area12;
+  }
+  .grid-item13 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area13;
+  }
+  .grid-item14 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area14;
+  }
+  
+  .grid-item15 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area15;
+  }
+  .grid-item16 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area16;
+  }
+  .grid-item17 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area17;
+  }
+  .grid-item18 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area18;
+  }
+  
+  .grid-item19 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area19;
+  }
+  .grid-item20 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area20;
+  }
+  .grid-item21 {
+    background: aquamarine;
+    text-align: center;
+    border: black 2px solid;
+    grid-area: area21;
+  }
+
+  .main-list-container {
+    margin-top: 2.5rem;
+  }
+  /*
+  #lang2 {
+    margin-top: 3rem;
+  }*/
+
+  .main-list-container {
+    width: 45rem;
+    height: 4.4rem;
+    
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2.7rem;
+    justify-content: center;
+    align-items: center;
+    border: #B8B8B9 1px solid;
+  }
+  
+.search {
+  width: 5.4rem;
+  height: 4.4rem;
+  background-color: #4535E4;
+  cursor: pointer;
+
+}
+/*.main-list-container .search .search-icon {*/
+.search img {
+  /*background-image: url('https://img.icons8.com/android/24/000000/search.png');
+  background-image: url('https://ebling.library.wisc.edu/wp-content/uploads/2019/03/whitesearchicon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 5.6rem;
+  height: 1.8rem;*/
+  width: 65%;
+  height: 65%;
+  margin-top: 0.5rem;
+    
+}
+  
+.main-list-container input {
+  width: 36rem;
+  height: 4rem;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+}
+.main-list-container select {
+  width: 4.5rem;
+  padding-left: 6px;
+  border: none;
+}
+.SecInput {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.line1 {
+  width: 5.8rem;
+  height: 0.8rem;
+  border-top: #D4D4D6 1px solid;
+  display: inline;
+  margin-top: 5rem;
+}
+.Second-list-container {
+  width: 30rem;
+  height: 3.6rem;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 3.2rem;
+  justify-content: center;
+  align-items: center;
+  border: #B8B8B9 1px solid;
+
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
+}
+
+.line2 {
+  width: 5.8rem;
+  height: 0.8rem;
+  border-top: #D4D4D6 1px solid;
+  display: inline;
+  margin-top: 5rem;
+}
+
+
+.Message-lang {
+  width: 25rem;
+  height: 4rem;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+  margin-top: 2.4rem;
+}
+.Message-lang p {
+  font-size: 15px;
+  color: #4535E4;
+  font-weight: bold;
+}
+.Second-list-container select {
+  width: 4.5rem;
+  padding-left: 6px;
+  border: none;
+  
+}
+
+.FooterUp {
+  
+  width: 100vw;
+  margin-top: 3rem;
+}
+
+.legends {
+  width: 96%;
+  margin: 0 auto;
+  border: black 1px dotted;
+  
+  display: grid;
+  /*
+  grid-template-columns: repeat(3,22rem);
+  grid-template-rows: repeat(6,7.6rem);*/
+  grid-template-columns: repeat(3,33.33%);
+  grid-template-rows: repeat(6,auto);
+  justify-content: center;
+  
+}
+
+.legend-up {
+  /*width: 100%;*/
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+
+  margin-bottom: 3.2rem;
+/*
+  position: relative;
+  height: 180px;*/
+}
+.legend-up img {
+  
+  width: 42px;
+  height: 42px;
+  margin: 0 auto;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;  
+}
+
+.Par-Lup p {
+  
+  font-size: 13.5px;
+  justify-content: center;
+  
+}
+
+.Par-Lup p a {
+  text-decoration: none;
+}
+/*
+.GridUtilities {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(3,22rem);
+  grid-template-rows: repeat(4,7.6rem);
+  justify-content: center;
+  margin-top: 3.2rem;
+
+  order: 2;
+}*/
+.item {
+  background-color: #C9C7E2;
+  border: black 1px solid;
+  display: flex;
+  align-items: center;
+}
+/*
+
+.item-1, .item-2, .item-3 {
+    grid-row-start: 2;
+    margin-top: 3.2rem;
+    position: relative;
+
+}
+.item-4, .item-5, .item-6 {
+    grid-row-start: 3;
+    position: relative;
+}
+.item-7, .item-8, .item-9 {
+    grid-row-start: 4;
+    position: relative;
+}
+.item-10, .item-11, .item-12 {
+    grid-row-start: 5;
+    position: relative;
+}
+*/
+.item :nth-child(1) {
+  width: 30%;
+  
+}
+.item :nth-child(1) img {
+  width: 4.2rem;
+  height: 4.2rem;
+  /*margin-top: 13px;*/
+}
+.Utility {
+  width: 70%;
+  height: auto;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.item .Utility :nth-child(1) {
+  font-size: 14px;
+  width: 100%;
+  text-align: left;
+  /*padding-top: 22px;*/
+  margin: auto 0;
+  color: #7B7BEA;
+}
+.item .Utility :nth-child(2) {
+  font-size: 13.4px;
+  text-align: left;
+}
+
+.legend-down {
+  
+
+  /*margin: 0 auto;*/
+  border: black 1px dotted;
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  background-color: #F0F0F5;
+
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+/*  
+  height: auto;
+  position: relative;
+*/  
+}
+.legend-down .LegDn-title {
+  margin-top: 0.7rem;
+  justify-content: center;
+  display: flex;
+}
+.legend-down .LegDn-title .LogWiki {
+  /*display: inline-block;*/
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: white;
+  margin-right: 0.4rem;
+  /*margin-top: 0.7rem;*/
+  border-top: #DADADD 0.8px solid;
+  border-left: #DADADD 0.8px solid;
+  border-right: #DADADD 0.8px solid;
+  border-bottom: #DADADD 2px solid;
+
+  /*margin: 0 auto;*/
+  
+}
+.legend-down .LegDn-title .LogWiki img {
+  width: 85%;
+  height: 65%;
+  margin-top: 3.5px;
+}
+.legend-down .LegDn-title .LegDnParr1 {
+  /*display: inline;*/
+  color: #191995;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 0.4rem;
+  cursor: pointer;
+  /*margin-top: 17px;*/
+  
+  margin-top: 5px;
+  
+}
+.LegDnParr2 {
+  font-size: 14px;
+  margin-top: 2.5rem;
+
+  justify-content: center;
+}
+.PlayStore {
+  margin-top: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+.PlayStore :nth-child(1) {
+  width: 12.4rem;
+  height: 3.8rem;
+  cursor: pointer;
+}
+.PlayStore :nth-child(2) {
+  width: 11rem;
+  height: 3.8rem;
+  cursor: pointer;
+}
+
+footer {
+  width: 100vw;
+  text-align: center;
+}
+
+.FooterDown {
+  
+  
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+.FooterDown li {
+  display: inline;
+  list-style-position: upper-alpha;
+  list-style-position: inside;
+  font-size: 14px;
+    
+}
+
+.FooterDown li span {
+  color: #7B7BEA;
+  
+}
+.FooterDown :nth-child(2) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 900px) {
+  .legends {
+    display: grid;
+    /*grid-template-rows: 8.6rem 8.6rem 8.6rem 10.5rem;*/
+    grid-template-rows: repeat(4, auto);
+    /*grid-template-columns: 35rem 23.3rem 23.3rem 23.3rem;*/
+    grid-template-columns: 33.3% 22.21% 22.21% 22.21%;
+    grid-gap: 1px;
+  }
+  .legend-up {
+
+    /*text-align: center;*/
+    border: black 1px solid;                
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 3;
+
+    grid-auto-rows: auto;     
+    margin-right: 1rem;       
+    height: auto;
+
+    display: flex;
+    /*align-items: center;*/
+  }
+
+  .legend-up img {
+  
+    width: 42px;
+    height: 42px;
+    margin: 0.7rem 0.35rem 7.5rem 0.7rem;
+    
+  }
+  .Par-Lup {
+     
+    display: inline;
+    margin: 0.8rem 1rem 5.5rem 0.35rem;
+    text-align: left;
+  }
+  .Par-Lup p {
+    font-size: 13.5px;
+    line-height: 2rem;
+  }
+  
+  .legend-down {
+    
+    /*text-align: center;*/
+    border: black 1px solid;
+      
+    grid-column-start: 1;
+    grid-column-end: 2;    
+    grid-row-start: 3;
+    grid-row-end: 6;
+
+    grid-auto-rows: auto;
+    height: auto;
+
+    margin-top: -4.5rem;
+    margin-right: 1rem;
+
+    
+    text-align: left;
+  }
+  .legend-down .LegDn-title {
+    justify-content: left;
+  }
+  .legend-down .LegDn-title .LogWiki {
+    width: 4.2rem;
+    height: 4.2rem;
+    margin-left: 0.7rem;
+    /*align-items: center;*/
+  }
+  .legend-down .LegDn-title .LogWiki img {
+    width: 70%;
+    height: 60%;
+    margin-top: 0.75rem;
+    margin-left: 0.55rem;
+  }
+  .legend-down .LegDn-title .LegDnParr1 {
+    margin-top: 0;
+  }
+  .LegDnParr2 {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    line-height: 2rem;
+  }
+  .LegDnParr2, .PlayStore{
+    margin-left: 5.8rem;
+  }
+  .item-7 .Utility,
+  .item-8 .Utility,
+  .item-9 .Utility {
+    margin-top: 2.1rem;
+    margin-bottom: 2.1rem;
+  }
+  .item-10 .Utility,
+  .item-11 .Utility,
+  .item-12 .Utility {
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+  }
+} 
