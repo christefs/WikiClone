@@ -27,7 +27,7 @@ margin-top: 5px;
   font-size: 4.5rem;
 }
 .Title {
-  /*font-family: Linux Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif;*/
+  
   font-family: 'Crimson Text', serif;
   font-size: 3rem;
 }
@@ -79,55 +79,34 @@ text-align: center;
   text-decoration: underline;
 }
 .grid-item1 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+  
   grid-area: area1;
   
 }
 
 .grid-item2 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+  
   grid-area: area2;
 }
 
 .grid-item3 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+  
   grid-area: area3;
 }
 .grid-item4 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+  
   grid-area: area4;
 }
 .grid-item5 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area5;
 }
 .grid-item6 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area6;
 }
 .grid-item7 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area7;
  
   height: 205px;
@@ -138,115 +117,70 @@ text-align: center;
   height: 100%;
 }
 .grid-item8 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area8;
 }
 .grid-item9 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area9;
 }
 .grid-item10 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area10;
 }
 
 .grid-item11 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area11;
 }
 .grid-item12 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area12;
 }
 .grid-item13 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area13;
 }
 .grid-item14 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area14;
 }
 
 .grid-item15 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area15;
 }
 .grid-item16 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area16;
 }
 
 .grid-item17 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+  
   grid-area: area17;
 }
 .grid-item18 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area18;
 }
 
 .grid-item19 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area19;
 }
 .grid-item20 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area20;
 }
 .grid-item21 {
-  /*
-  background: aquamarine;
-  text-align: center;
-  border: black 2px solid;*/
+ 
   grid-area: area21;
 }
 
 .main-list-container {
   margin-top: 2.5rem;
 }
-/*
-#lang2 {
-  margin-top: 3rem;
-}*/
+
 
 .main-list-container {
   width: 45rem;
@@ -267,15 +201,9 @@ text-align: center;
   cursor: pointer;
 
 }
-/*.main-list-container .search .search-icon {*/
+
 .search img {
-/*background-image: url('https://img.icons8.com/android/24/000000/search.png');
-background-image: url('https://ebling.library.wisc.edu/wp-content/uploads/2019/03/whitesearchicon.png');
-background-repeat: no-repeat;
-background-position: center;
-background-size: contain;
-width: 5.6rem;
-height: 1.8rem;*/
+
   width: 65%;
   height: 65%;
   margin-top: 0.5rem;
@@ -313,8 +241,7 @@ height: 1.8rem;*/
   display: flex;
   margin: 0 auto;
   margin-top: 3.2rem;
-  /*justify-content: center;
-  align-items: center;*/
+  
   border: #B8B8B9 1px solid;
 
   margin-left: 1.8rem;
@@ -331,13 +258,12 @@ height: 1.8rem;*/
 
 
 .Second-list-container .Message-lang {
-  /*width: 25rem;*/
+  
   width: 88%;
   height: 3.6rem;
   border: none;
   outline: none;
   
-  /*margin-top: 2.4rem;*/
   display: flex;
   align-items: center;
   
@@ -346,42 +272,26 @@ height: 1.8rem;*/
   font-size: 14px;
   color: #4535E4;
   font-weight: 600;
-  /*padding-left: 0.7rem;
-  margin-bottom: 0.8rem;*/
+  
   font-family: 'Roboto', sans-serif;
   height: 3.6rem;
   margin-top: 1.8rem;
 
   display: inline;  
 }
-/*
-.Second-list-container .Message-lang p :nth-child(1){
-  margin-left: -1rem;
-}
-.Second-list-container .Message-lang p span{
-  
-  color: red;
-  margin-top: 30px;
-  
-}*/
+
 .Letters {
   display: inline;
   margin: 0 auto;
   font-size: 16px;
   color: #4535E4;
   font-weight: 600;
-  /*padding-left: 0.7rem;
-  margin-bottom: 0.8rem;*/
+  
   font-family: 'Roboto', sans-serif;
 }
-/*
-.Letters .Letter2 {
-  margin-top: 15px;
-}
-*/
+
 .Second-list-container select {
 
-/*width: 4.5rem;*/
 width: 12%;
 padding-left: 6px;
 border: none;
@@ -397,14 +307,12 @@ margin-top: 3rem;
 .legends {
 width: 98%;
 margin: 0 auto;
-/*border: black 1px dotted;*/
+
 border-top: #D4D4D6 1px solid;
 border-bottom: #D4D4D6 1px solid;
 
 display: grid;
-/*
-grid-template-columns: repeat(3,22rem);
-grid-template-rows: repeat(6,7.6rem);*/
+
 grid-template-columns: 1.33% repeat(3,32%);
 grid-template-rows: repeat(6,auto);
 justify-content: center;
@@ -412,22 +320,16 @@ justify-content: center;
 }
 
 .legend-up {
-/*width: 100%;*/
+
 text-align: center;
-grid-column-start: 2; /******** 1 *********/
-grid-column-end: 5; /********* 4 *********/
+grid-column-start: 2; 
+grid-column-end: 5; 
 grid-row-start: 1;
 
 margin-bottom: 3.2rem;
-/*
-position: relative;
-height: 180px;*/
+
 }
-/*
-.c0, .c1, .c2, .c3, .c4, .c5 {
-  background-color: lightskyblue;
-}
-*/
+
 .c0 {
   margin-bottom: 3.2rem;
 }
@@ -453,8 +355,7 @@ text-decoration: none;
 }
 
 .item {
-/*background-color: #C9C7E2;
-border: black 1px solid;*/
+
 display: flex;
 align-items: center;
 }
@@ -470,7 +371,7 @@ width: 30%;
 .item :nth-child(1) img {
 width: 4.2rem;
 height: 4.2rem;
-/*margin-top: 13px;*/
+
 }
 .Utility {
 width: 70%;
@@ -482,7 +383,7 @@ margin-bottom: 1.2rem;
 font-size: 14px;
 width: 100%;
 text-align: left;
-/*padding-top: 22px;*/
+
 margin: auto 0;
 color: #7B7BEA;
 font-family: 'Roboto', sans-serif;
@@ -501,20 +402,14 @@ font-family: 'Roboto', sans-serif;
 .legend-down {
 
 
-/*margin: 0 auto;
-border: black 1px dotted;*/
-
-grid-column-start: 2; /******** 1 ********/
-grid-column-end: 5; /******** 4 ********/
+grid-column-start: 2; 
+grid-column-end: 5; 
 grid-row-start: 6;
 background-color: #F0F0F5;
 
 margin-top: 2rem;
 margin-bottom: 5rem;
-/*  
-height: auto;
-position: relative;
-*/  
+
 }
 .legend-down .LegDn-title {
 margin-top: 0.7rem;
@@ -522,18 +417,16 @@ justify-content: center;
 display: flex;
 }
 .legend-down .LegDn-title .LogWiki {
-/*display: inline-block;*/
+
 width: 2.5rem;
 height: 2.5rem;
 background-color: white;
 margin-right: 0.4rem;
-/*margin-top: 0.7rem;*/
+
 border-top: #DADADD 0.8px solid;
 border-left: #DADADD 0.8px solid;
 border-right: #DADADD 0.8px solid;
 border-bottom: #DADADD 2px solid;
-
-/*margin: 0 auto;*/
 
 }
 .legend-down .LegDn-title .LogWiki img {
@@ -542,13 +435,13 @@ height: 65%;
 margin-top: 3.5px;
 }
 .legend-down .LegDn-title .LegDnParr1 {
-/*display: inline;*/
+
 color: #191995;
 font-weight: bold;
 font-size: 14px;
 margin-left: 0.4rem;
 cursor: pointer;
-/*margin-top: 17px;*/
+
 font-family: 'Roboto', sans-serif;
 margin-top: 5px;
 
@@ -613,14 +506,14 @@ margin-right: 1rem;
 @media (min-width: 900px) {
 .legends {
   display: grid;
-  /*grid-template-rows: 8.6rem 8.6rem 8.6rem 10.5rem;*/
+  
   grid-template-rows: repeat(4, auto);
-  /*grid-template-columns: 35rem 23.3rem 23.3rem 23.3rem;*/
-  grid-template-columns:2.5% 32.28% 2.5% 20.88% 20.88% 20.88%; /********** 33.3% 22.21% 22.21% 22.21% 22.21% ***********/
+  
+  grid-template-columns:2.5% 32.28% 2.5% 20.88% 20.88% 20.88%; 
   
   grid-gap: 1px;
 
-  /*padding-left: 2rem;*/ /*Retirado para pruebas*/
+  
 }
 
 .c0 {
@@ -628,23 +521,20 @@ margin-right: 1rem;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 3;
-} /*Nueva columna*/
+} /*Nueva columna que da un espacio a la izquierda al primer párrafo de la izquierda*/
 
 .legend-up {
 
-  /*text-align: center;
-  border: black 1px solid;*/               
-  grid-column-start: 2; /******** 1 *********/
-  grid-column-end: 3; /********2 *********/
+  
+  grid-column-start: 2; 
+  grid-column-end: 3; 
   grid-row-start: 1;
   grid-row-end: 3;
-
-  /*grid-auto-rows: auto;*/     
-  /*margin-right: 1rem;*/ /*Retirado para pruebas*/       
+  
   height: auto;
 
   display: flex;
-  /*align-items: center;*/
+  
 }
 
 .legend-up, .item-1, .item-2, .item-3, .c0, .c1 {
@@ -674,24 +564,18 @@ margin-right: 1rem;
   grid-column-end: 2;    
   grid-row-start: 3;
   grid-row-end: 6;
-}/*Nueva columna*/
+}/*Nueva columna que da un espacio a la izquierda al segunda párrafo de la izquierda*/
 
 .legend-down {
-  
-  /*text-align: center;
-  border: black 1px solid;*/
-    
-  grid-column-start: 2; /********* 1 **********/
-  grid-column-end: 3; /********2 ***********/    
+   
+  grid-column-start: 2; 
+  grid-column-end: 3; 
   grid-row-start: 3;
   grid-row-end: 6;
 
-  /*grid-auto-rows: auto;*/
   height: auto;
 
   margin-top: -5rem;
-  /*margin-right: 1rem;*/ /*Retirado para pruebas*/
-
   
   text-align: left;
 }
@@ -702,7 +586,7 @@ margin-right: 1rem;
   width: 4.2rem;
   height: 4.2rem;
   margin-left: 0.7rem;
-  /*align-items: center;*/
+  
 }
 .legend-down .LegDn-title .LogWiki img {
   width: 70%;
