@@ -318,9 +318,7 @@ main {
   border: black 1px dotted;
   
   display: grid;
-  /*
-  grid-template-columns: repeat(3,22rem);
-  grid-template-rows: repeat(6,7.6rem);*/
+  
   grid-template-columns: repeat(3,33.33%);
   grid-template-rows: repeat(6,auto);
   justify-content: center;
@@ -328,16 +326,14 @@ main {
 }
 
 .legend-up {
-  /*width: 100%;*/
+  
   text-align: center;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
 
   margin-bottom: 3.2rem;
-/*
-  position: relative;
-  height: 180px;*/
+
 }
 .legend-up img {
   
@@ -358,45 +354,14 @@ main {
 .Par-Lup p a {
   text-decoration: none;
 }
-/*
-.GridUtilities {
-  width: 100%;
 
-  display: grid;
-  grid-template-columns: repeat(3,22rem);
-  grid-template-rows: repeat(4,7.6rem);
-  justify-content: center;
-  margin-top: 3.2rem;
-
-  order: 2;
-}*/
 .item {
   background-color: #C9C7E2;
   border: black 1px solid;
   display: flex;
   align-items: center;
 }
-/*
 
-.item-1, .item-2, .item-3 {
-    grid-row-start: 2;
-    margin-top: 3.2rem;
-    position: relative;
-
-}
-.item-4, .item-5, .item-6 {
-    grid-row-start: 3;
-    position: relative;
-}
-.item-7, .item-8, .item-9 {
-    grid-row-start: 4;
-    position: relative;
-}
-.item-10, .item-11, .item-12 {
-    grid-row-start: 5;
-    position: relative;
-}
-*/
 .item :nth-child(1) {
   width: 30%;
   
@@ -404,7 +369,7 @@ main {
 .item :nth-child(1) img {
   width: 4.2rem;
   height: 4.2rem;
-  /*margin-top: 13px;*/
+  
 }
 .Utility {
   width: 70%;
@@ -416,7 +381,7 @@ main {
   font-size: 14px;
   width: 100%;
   text-align: left;
-  /*padding-top: 22px;*/
+  
   margin: auto 0;
   color: #7B7BEA;
 }
@@ -428,7 +393,7 @@ main {
 .legend-down {
   
 
-  /*margin: 0 auto;*/
+  
   border: black 1px dotted;
 
   grid-column-start: 1;
@@ -438,10 +403,7 @@ main {
 
   margin-top: 2rem;
   margin-bottom: 5rem;
-/*  
-  height: auto;
-  position: relative;
-*/  
+
 }
 .legend-down .LegDn-title {
   margin-top: 0.7rem;
@@ -449,18 +411,16 @@ main {
   display: flex;
 }
 .legend-down .LegDn-title .LogWiki {
-  /*display: inline-block;*/
+  
   width: 2.5rem;
   height: 2.5rem;
   background-color: white;
   margin-right: 0.4rem;
-  /*margin-top: 0.7rem;*/
+  
   border-top: #DADADD 0.8px solid;
   border-left: #DADADD 0.8px solid;
   border-right: #DADADD 0.8px solid;
   border-bottom: #DADADD 2px solid;
-
-  /*margin: 0 auto;*/
   
 }
 .legend-down .LegDn-title .LogWiki img {
@@ -469,14 +429,12 @@ main {
   margin-top: 3.5px;
 }
 .legend-down .LegDn-title .LegDnParr1 {
-  /*display: inline;*/
+  
   color: #191995;
   font-weight: bold;
   font-size: 14px;
   margin-left: 0.4rem;
-  cursor: pointer;
-  /*margin-top: 17px;*/
-  
+  cursor: pointer;  
   margin-top: 5px;
   
 }
@@ -532,15 +490,15 @@ footer {
 @media (min-width: 900px) {
   .legends {
     display: grid;
-    /*grid-template-rows: 8.6rem 8.6rem 8.6rem 10.5rem;*/
+    
     grid-template-rows: repeat(4, auto);
-    /*grid-template-columns: 35rem 23.3rem 23.3rem 23.3rem;*/
+    
     grid-template-columns: 33.3% 22.21% 22.21% 22.21%;
     grid-gap: 1px;
   }
   .legend-up {
 
-    /*text-align: center;*/
+    
     border: black 1px solid;                
     grid-column-start: 1;
     grid-column-end: 2;
@@ -551,7 +509,7 @@ footer {
     height: auto;
 
     display: flex;
-    /*align-items: center;*/
+    
   }
 
   .legend-up img {
@@ -574,7 +532,7 @@ footer {
   
   .legend-down {
     
-    /*text-align: center;*/
+    
     border: black 1px solid;
       
     grid-column-start: 1;
@@ -598,7 +556,7 @@ footer {
     width: 4.2rem;
     height: 4.2rem;
     margin-left: 0.7rem;
-    /*align-items: center;*/
+    
   }
   .legend-down .LegDn-title .LogWiki img {
     width: 70%;

@@ -19,12 +19,19 @@
     background: blue;
     text-align: center;
     border: black 5px solid;
-    width: 150%;
+    width: 100%;
     height: auto;
     justify-self: start;
     align-self: start;
   }
 
   .c6 {
-    margin-left: 60px;
+    margin-left: 50px;
+  }
+  .c7 {
+    background: blue;
+    text-align: center;
+    border: black 5px solid;
+    justify-self: end;
+    align-self: end;
   }
